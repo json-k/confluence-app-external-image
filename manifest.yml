@@ -1,0 +1,16 @@
+modules:
+  macro:
+    - key: external-image
+      function: main
+      title: External Image
+      description: Links to an external image
+      config:
+        function: config
+  function:
+    - key: main
+      handler: index.run
+    - key: config
+      handler: index.config
+app:
+  id: ari:cloud:ecosystem::app/e80fdfd5-c11a-4193-a214-de1e8c0a4069
+  name: external-image-app
